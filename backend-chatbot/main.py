@@ -18,7 +18,7 @@ app.add_middleware(
 )
 
 # MongoDB config
-MONGO_URI = "mongodb://mongo:YvjDmHBINTcvxYWvLCzHaNJGmeBTjZWc@mongodb.railway.internal:27017"
+MONGO_URI = "mongodb://mongo:KRYYnQmHnXepfrtEWCaTTTygvqCxMaXH@mongodb.railway.internal:27017"
 client = motor.motor_asyncio.AsyncIOMotorClient(MONGO_URI)
 db = client.IA
 coleccion = db.conversacions
